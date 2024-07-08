@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="16dp"
+    tools:context=".AddNoteActivity">
+
+    <TextView
+        android:id="@+id/add_note_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/add_note_heading"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_note_button"
+        android:layout_alignTop="@+id/add_note_heading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:padding="10dp"
+        android:src="@drawable/baseline_done_24"
+         />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/title_edit_text"
+        android:layout_below="@+id/add_note_heading"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:hint="@string/enter_the_title"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/orange_border"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:lines="@integer/material_motion_duration_long_1"
+        android:id="@+id/content_edit_text"
+        android:layout_below="@+id/title_edit_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:hint="@string/enter_the_description"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/orange_border"
+        />
+</RelativeLayout>

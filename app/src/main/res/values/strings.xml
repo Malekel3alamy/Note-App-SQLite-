@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyNoteApp</string>
+    <string name="add_note">Add Note</string>
+    <string name="add_note_heading">Add Note</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="enter_the_description">Enter The Description</string>
+    <string name="content">Content</string>
+    <string name="title">Title</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_content">Enter Content</string>
+    <string name="update_note">Update Note</string>
+    <string name="update_note_header">Update Note</string>
+</resources>
